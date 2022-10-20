@@ -1,0 +1,16 @@
+[
+  "constructor()",
+  "event AdminChanged(address previousAdmin, address newAdmin)",
+  "event BeaconUpgraded(address indexed beacon)",
+  "event Initialized(uint8 version)",
+  "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+  "event Upgraded(address indexed implementation)",
+  "function executeProposal(address _to, bytes _data, uint256 _value) returns (bytes)",
+  "function initialize()",
+  "function owner() view returns (address)",
+  "function proxiableUUID() view returns (bytes32)",
+  "function renounceOwnership()",
+  "function transferOwnership(address newOwner)",
+  "function upgradeTo(address newImplementation)",
+  "function upgradeToAndCall(address newImplementation, bytes data) payable"
+]

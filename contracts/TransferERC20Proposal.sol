@@ -3,8 +3,8 @@
 pragma solidity 0.8.17;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "./Proposal.sol";
-import "../../interfaces/IProposalOwner.sol";
+import "./base/Proposal.sol";
+import "./interfaces/IProposalOwner.sol";
 
 contract TransferERC20Proposal is Proposal {
 

@@ -1,0 +1,18 @@
+[
+  "constructor()",
+  "event AdminChanged(address previousAdmin, address newAdmin)",
+  "event BeaconUpgraded(address indexed beacon)",
+  "event Initialized(uint8 version)",
+  "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+  "event Upgraded(address indexed implementation)",
+  "function initialize(tuple(address _walletImplementation) params)",
+  "function owner() view returns (address)",
+  "function proxiableUUID() view returns (bytes32)",
+  "function renounceOwnership()",
+  "function transferOwnership(address newOwner)",
+  "function upgradeImplementations(tuple(address _walletImplementation) params)",
+  "function upgradeTo(address newImplementation)",
+  "function upgradeToAndCall(address newImplementation, bytes data) payable",
+  "function walletImplementation() view returns (address)",
+  "function wallets(address) view returns (bool)"
+]
